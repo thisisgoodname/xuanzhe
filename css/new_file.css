@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+	min-width: 1200px;
+}
+.front,.back{
+	margin:auto 20px;
+	transition: all 3s;
+	color: #ffffff;
+	font-size:50px;
+	font-family: "arial rounded mt bold";
+	font-weight: 900;
+	text-align: center;
+	line-height: 300px;
+	height:300px;
+	width: 300px;
+	background:linear-gradient(to top,#ffaaff,#ff55ff);
+	border-radius: 150px;
+}
+.front:hover{
+	background:linear-gradient(to top,#ff55ff,#ffaaff);
+}
+.back:hover{
+	background:linear-gradient(to top,#ff55ff,#ffaaff);
+}
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
